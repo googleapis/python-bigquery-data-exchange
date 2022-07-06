@@ -5137,7 +5137,6 @@ def test_analytics_hub_service_transport_auth_adc(transport_class):
     [
         transports.AnalyticsHubServiceGrpcTransport,
         transports.AnalyticsHubServiceGrpcAsyncIOTransport,
-        transports.AnalyticsHubServiceRestTransport,
     ],
 )
 def test_analytics_hub_service_transport_auth_gdch_credentials(transport_class):
