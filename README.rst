@@ -3,7 +3,7 @@ Python Client for BigQuery Analytics Hub API
 
 |preview| |pypi| |versions|
 
-`BigQuery Analytics Hub API`_: 
+`BigQuery Analytics Hub API`_: is a data exchange that allows you to efficiently and securely exchange data assets across organizations to address challenges of data reliability and cost.
 
 - `Client Library Documentation`_
 - `Product Documentation`_
