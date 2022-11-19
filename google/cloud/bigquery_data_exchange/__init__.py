@@ -18,69 +18,34 @@ from google.cloud.bigquery_data_exchange import gapic_version as package_version
 __version__ = package_version.__version__
 
 
-from google.cloud.bigquery_data_exchange_v1beta1.services.analytics_hub_service.client import (
-    AnalyticsHubServiceClient,
-)
 from google.cloud.bigquery_data_exchange_v1beta1.services.analytics_hub_service.async_client import (
     AnalyticsHubServiceAsyncClient,
 )
-
+from google.cloud.bigquery_data_exchange_v1beta1.services.analytics_hub_service.client import (
+    AnalyticsHubServiceClient,
+)
 from google.cloud.bigquery_data_exchange_v1beta1.types.dataexchange import (
     CreateDataExchangeRequest,
-)
-from google.cloud.bigquery_data_exchange_v1beta1.types.dataexchange import (
     CreateListingRequest,
-)
-from google.cloud.bigquery_data_exchange_v1beta1.types.dataexchange import DataExchange
-from google.cloud.bigquery_data_exchange_v1beta1.types.dataexchange import DataProvider
-from google.cloud.bigquery_data_exchange_v1beta1.types.dataexchange import (
+    DataExchange,
+    DataProvider,
     DeleteDataExchangeRequest,
-)
-from google.cloud.bigquery_data_exchange_v1beta1.types.dataexchange import (
     DeleteListingRequest,
-)
-from google.cloud.bigquery_data_exchange_v1beta1.types.dataexchange import (
     DestinationDataset,
-)
-from google.cloud.bigquery_data_exchange_v1beta1.types.dataexchange import (
     DestinationDatasetReference,
-)
-from google.cloud.bigquery_data_exchange_v1beta1.types.dataexchange import (
     GetDataExchangeRequest,
-)
-from google.cloud.bigquery_data_exchange_v1beta1.types.dataexchange import (
     GetListingRequest,
-)
-from google.cloud.bigquery_data_exchange_v1beta1.types.dataexchange import (
     ListDataExchangesRequest,
-)
-from google.cloud.bigquery_data_exchange_v1beta1.types.dataexchange import (
     ListDataExchangesResponse,
-)
-from google.cloud.bigquery_data_exchange_v1beta1.types.dataexchange import Listing
-from google.cloud.bigquery_data_exchange_v1beta1.types.dataexchange import (
+    Listing,
     ListListingsRequest,
-)
-from google.cloud.bigquery_data_exchange_v1beta1.types.dataexchange import (
     ListListingsResponse,
-)
-from google.cloud.bigquery_data_exchange_v1beta1.types.dataexchange import (
     ListOrgDataExchangesRequest,
-)
-from google.cloud.bigquery_data_exchange_v1beta1.types.dataexchange import (
     ListOrgDataExchangesResponse,
-)
-from google.cloud.bigquery_data_exchange_v1beta1.types.dataexchange import Publisher
-from google.cloud.bigquery_data_exchange_v1beta1.types.dataexchange import (
+    Publisher,
     SubscribeListingRequest,
-)
-from google.cloud.bigquery_data_exchange_v1beta1.types.dataexchange import (
     SubscribeListingResponse,
-)
-from google.cloud.bigquery_data_exchange_v1beta1.types.dataexchange import (
     UpdateDataExchangeRequest,
-)
-from google.cloud.bigquery_data_exchange_v1beta1.types.dataexchange import (
     UpdateListingRequest,
 )
 

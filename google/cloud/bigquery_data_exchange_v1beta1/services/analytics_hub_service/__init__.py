@@ -13,8 +13,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-from .client import AnalyticsHubServiceClient
 from .async_client import AnalyticsHubServiceAsyncClient
+from .client import AnalyticsHubServiceClient
 
 __all__ = (
     "AnalyticsHubServiceClient",
